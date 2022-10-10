@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .btn-purple {
+        @apply bg-indigo-700 md:text-xs lg:font-semibold rounded-xl text-white lg:text-sm 
+        lg:px-4 lg:py-1 shadow-lg shadow-black md:p-1 sm:px-2 sm:text-xs sm:font-normal hover:text-black;
+    }
+    .card-sm{
+        @apply justify-center items-center  sm:h-20 w-28 md:h-60 md:w-80 bg-white md:flex md:justify-center rounded-lg shadow-lg shadow-black;
+    }
+    .row-3{
+        @apply grid grid-cols-3 gap-10 place-items-center mt-11;
+    }
+    .row-2{
+        @apply grid grid-cols-12 my-10 mx-20;
+    }
+   
+ 
+
+   
+}
